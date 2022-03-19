@@ -1,4 +1,5 @@
 # nt-vykradacka
+TENTO SCRIPT JE PŮL ROKU STARÝ, A ŠPATNĚ OPTIMALIZOVANÝ. NEPOUŽÍVAT!
 Vykrádání obchodu pomocí safe cracking minihry
 
 ESX Based
