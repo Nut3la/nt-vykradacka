@@ -17,6 +17,5 @@ server_scripts {
 }
 
 dependencies {
-	'mythic_notify',
-	'wh_outlawalert'
+	'mythic_notify'
 }
