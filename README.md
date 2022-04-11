@@ -1,5 +1,5 @@
-# nt-vykradacka
-TENTO SCRIPT JE PŮL ROKU STARÝ, A ŠPATNĚ OPTIMALIZOVANÝ. NEPOUŽÍVAT!
+# y-vykradacka
+
 Vykrádání obchodu pomocí safe cracking minihry
 
 ESX Based
@@ -19,4 +19,4 @@ Minihra se ruší stistknutím [S]
 
 Dependency:
 
-wh_alerts - Název scriptu MUSÍ být **wh_alerts**
+wh_alerts / linden_outlawalert  -- Můžete si to přehodit na vlastní systém alertů
