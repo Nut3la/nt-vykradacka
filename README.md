@@ -19,4 +19,4 @@ Minihra se ruší stistknutím [S]
 
 Dependency:
 
-wh_alerts / linden_outlawalert  -- Můžete si to přehodit na vlastní systém alertů ALE musíte si upravit fxmanifest.lua
+wh_alerts / linden_outlawalert  -- Můžete si to přehodit na vlastní systém alertů
