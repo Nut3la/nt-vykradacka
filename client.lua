@@ -115,7 +115,7 @@ Citizen.CreateThread(function()
 	        for k, v in pairs(Config.LokaceObchodu) do
 	            if GetDistanceBetweenCoords(coords, Config.LokaceObchodu[k].coords.x, Config.LokaceObchodu[k].coords.y, Config.LokaceObchodu[k].coords.z, true) < 1.5  then
 	                if not Config.PotrebaItem then
-						ESX.Game.Utils.DrawText3D(vector3(Config.LokaceObchodu[k].coords.x, Config.LokaceObchodu[k].coords.y, Config.LokaceObchodu[k].coords.z + 1.0), "Stiskni [E] Pro vykradení registru", 0.6)
+						ESX.Game.Utils.DrawText3D(vector3(Config.LokaceObchodu[k].coords.x, Config.LokaceObchodu[k].coords.y, Config.LokaceObchodu[k].coords.z + 1.0), "Press [E] to rob the cash register", 0.6)
 					end
 					robbinglocation2 = k
 	            end
@@ -126,7 +126,7 @@ Citizen.CreateThread(function()
 	        for k, v in pairs(Config.SafeLocations) do
 	            if GetDistanceBetweenCoords(coords, Config.LokaceSafe[k].coords.x, Config.LokaceSafe[k].coords.y, Config.LokaceSafe[k].coords.z, true) < 1.5 then
 					if not Config.EnableItemTrigger then
-						ESX.Game.Utils.DrawText3D(vector3(Config.LokaceSafe[k].coords.x, Config.LokaceSafe[k].coords.y, Config.LokaceSafe[k].coords.z + 1.0), "Stiskni [E] Pro vykradení safu", 0.6)
+						ESX.Game.Utils.DrawText3D(vector3(Config.LokaceSafe[k].coords.x, Config.LokaceSafe[k].coords.y, Config.LokaceSafe[k].coords.z + 1.0), "Press [E] to rob the safe", 0.6)
 	                end
 					robbinglocation2 = k
 	            end
@@ -137,7 +137,7 @@ Citizen.CreateThread(function()
 	        for k, v in pairs(Config.VaultLocations) do
 	            if GetDistanceBetweenCoords(coords, Config.VaultLokace[k].coords.x, Config.VaultLokace[k].coords.y, Config.VaultLokace[k].coords.z, true) < 1.5 then
 	                if not Config.EnableItemTrigger then
-						ESX.Game.Utils.DrawText3D(vector3(Config.VaultLokace[k].coords.x, Config.VaultLokace[k].coords.y, Config.VaultLokace[k].coords.z + 1.0), "Stiskni [E] Pro vykradení vaultu", 0.6)
+						ESX.Game.Utils.DrawText3D(vector3(Config.VaultLokace[k].coords.x, Config.VaultLokace[k].coords.y, Config.VaultLokace[k].coords.z + 1.0), "Press [E] to rob the safe", 0.6)
 					end
 					robbinglocation2 = k
 	            end
