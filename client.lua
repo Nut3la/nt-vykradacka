@@ -158,7 +158,7 @@ AddEventHandler('nt-vykradacka:cashregrob', function()
 		end
 		TriggerServerEvent('nt-vykradacka:notify', 1, robbinglocation2)
 	end
-	exports['mythic_notify']:DoCustomHudText('inform', 'A a D pro pohyb. W pro prijeti, S pro zruseni. GL', 7000)
+	exports['mythic_notify']:DoCustomHudText('inform', 'A and D for movement. W to lock, S to cancel. GL', 7000)
 
 	local res = exports['nt-vykradacka']:createSafe({math.random(0,99),math.random(0,99),math.random(0,99),math.random(0,99)})
 	if res == true then
@@ -170,7 +170,7 @@ AddEventHandler('nt-vykradacka:cashregrob', function()
 			TriggerServerEvent('nt-vykradacka:completed', robbinglocation2)
 		end
 	else
-		exports['mythic_notify']:DoHudText('error', 'Nepovedlo se!')
+		exports['mythic_notify']:DoHudText('error', 'You failed!')
 		TriggerServerEvent('nt-vykradacka:notify', 2)
 		if Config.PotrebaItem then
 			TriggerServerEvent('nt-vykradacka:fail')
@@ -189,7 +189,7 @@ AddEventHandler('nt-vykradacka:saferob', function()
 		end
 		TriggerServerEvent('nt-vykradacka:notify', 1, robbinglocation2)
 	end
-	exports['mythic_notify']:DoCustomHudText('inform', 'A a D pro pohyb. W pro prijeti, S pro zruseni. GL', 7000)
+	exports['mythic_notify']:DoCustomHudText('inform', 'A and D for movement. W to lock, S to cancel. GL', 7000)
 	--Citizen.Wait(200)
 	local res = exports['nt-vykradacka']:createSafe({math.random(0,99),math.random(0,99),math.random(0,99),math.random(0,99),math.random(0,99),math.random(0,99),math.random(0,99)})
 	if res == true then
@@ -201,7 +201,7 @@ AddEventHandler('nt-vykradacka:saferob', function()
 			TriggerServerEvent('nt-vykradacka:completed', robbinglocation2)
 		end
 	else
-		exports['mythic_notify']:DoHudText('error', 'Nepovedlo se!')
+		exports['mythic_notify']:DoHudText('error', 'You failed!')
 		TriggerServerEvent('nt-vykradacka:notify', 2)
 		if Config.PotrebaItem then
 			TriggerServerEvent('nt-vykradacka:fail')
@@ -219,7 +219,7 @@ AddEventHandler('nt-vykradacka:vaultrob', function()
 		end
 		TriggerServerEvent('nt-vykradacka:notify', 1, robbinglocation2)
 	end
-	exports['mythic_notify']:DoCustomHudText('inform', 'A a D pro pohyb. W pro prijeti, S pro zruseni. GL', 7000)
+	exports['mythic_notify']:DoCustomHudText('inform', 'A and D for movement. W to lock, S to cancel. GL', 7000)
 	--Citizen.Wait(200)
 	local res = exports['nt-vykradacka']:createSafe({math.random(0,99),math.random(0,99),math.random(0,99),math.random(0,99),math.random(0,99),math.random(0,99),math.random(0,99),math.random(0,99),math.random(0,99),math.random(0,99),math.random(0,99),math.random(0,99)})
 	if res == true then
@@ -231,7 +231,7 @@ AddEventHandler('nt-vykradacka:vaultrob', function()
 			TriggerServerEvent('nt-vykradacka:completed', robbinglocation2)
 		end
 	else
-		exports['mythic_notify']:DoHudText('error', 'Nepovedlo se!')
+		exports['mythic_notify']:DoHudText('error', 'You failed!')
 		TriggerServerEvent('nt-vykradacka:notify', 2)
 		if Config.PotrebaItem then
 			TriggerServerEvent('nt-vykradacka:fail')
