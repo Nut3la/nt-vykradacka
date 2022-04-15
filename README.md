@@ -1,22 +1,22 @@
-# y-vykradacka
+# ym-shoproberry
 
-Vykrádání obchodu pomocí safe cracking minihry
+Shoprobbery using safe cracking minigame
 
 ESX Based
 
-Můžete si script customizovat podle vašich představ!
+Script is not obfuscated and is fully customisable
 
-Jak vykrádat obchod?
-Dojdete k registru pokladny, a stistkene [E]. Tím začnete vykrádat
+How to rob the store?
+Go to the store register, and push [E]. That way, you'll start the roberry
 
-Safe posouváte ze strany na stranu pomocí A a D dokud neuslyšíte hlasité kliknutí
+You move the safe around with A and D until you hear a loud click
 
-Potom stisknete W a odemče se jeden zámeček
+Then you press W and one lock should unlock
 
-Takto opakujete dokud neodemčete všechny zámečky
+You repeat the process until all the locks are unlocked
 
-Minihra se ruší stistknutím [S]
+You can cancel the minigame by pressing [S]
 
 Dependency:
 
-wh_alerts / linden_outlawalert  -- Můžete si to přehodit na vlastní systém alertů
+wh_alerts / linden_outlawalert  -- Can be replacable by your own alert system
